@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    padding: 90px 20px opx ;
+}
+header{
+    background-color: aqua;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+}
+.nav-link{
+    color: antiquewhite;
+    text-decoration: none;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    padding: o 40px;
+    line-height: 80px;
+}
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 3px;
+
+}
+.nav-menu-link:hover{
+    background-color:blue;
+    transition: 5s;
+}
+.nav-toggle{
+    color: aliceblue;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+    cursor: pointer;
+
+
+    display: none;
+
+}
+.h1{padding: auto;
+background-position: 20px;
+}
+@media(max-width:768px){
+    body{
+        padding-top: 70px;  
+    }
+    .nav-menu{
+        flex-direction: column;
+        align-items: center;
+        margin-right: 20px;
+        background-color:olivedrab;
+        position: fixed;
+        left: 0;
+        top: 60px;
+        width: 100%;
+        padding: 20px 0;
+
+        height: calc(100% - 60px);
+        overflow: auto;
+        left: 100%;
+}
+.nav-toggle{
+    display: block;
+}
+.nav-menu_visible{
+left: 0;
+}
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-content{
+    width: 100%;
+    max-width: 450px;
+    background-color: gray;
+    padding: 30px 60px 70px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+
+    
+  
